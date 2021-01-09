@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body id='body'>
+  <div class="container" id="container">
+ 
+    <h1 class="title">Tic <span>Tac</span> Toe</h1>
+    <h4>Choose your color game </h4> 
+    <button class="change-color red-color" type="button" onclick="redColor()">red</button>
+    <button class="change-color yellow-color"  type="button" onclick="yellowColor()">yellow</button>
+    <button class="change-color green-color"  type="button" onclick="greenColor()">green</button>
+    <button class="change-color blue-color"  type="button" onclick="blueColor()">blue</button>
+    <h3>Choose your size your game</h3>
+   <button class="size" onclick="sizeFour()">4*4</button>
+   <button class="size" onclick="sizeFive()">5*5</button>
+   <button class="size" onclick="sizeThree()">3*3</button>
+   <!-- <button onclick="redOfX()">red</button>
+   <button onclick="blueOfX()">blue</button>
+   <button onclick="greenOfO()">green</button>
+   <button onclick="grayOfO()">gray</button> -->
+
+    <div class="status-action">
+      <div class="status">× is next</div>
+      <div class="reset">Reset</div>
+    </div>
+    <div class="game-grid"id='game-grid' >
+      <div class="game-cell" id="box-1"></div>
+      <div class="game-cell" id="box-2"></div>
+      <div class="game-cell" id="box-3"></div>
+      <div class="game-cell" id="box-4"></div>
+      <div class="game-cell" id="box-5"></div>
+      <div class="game-cell" id="box-6"></div>
+      <div class="game-cell" id="box-7"></div>
+      <div class="game-cell" id="box-8"></div>
+      <div class="game-cell" id="box-9"></div>
+    </div>
+    <div class="game-grid-two" id='game-grid-two'>
+      <div class="game-cell2" id="box-10"></div>
+      <div class="game-cell2" id="box-11"></div>
+      <div class="game-cell2" id="box-12"></div>
+      <div class="game-cell2" id="box-13"></div>
+      <div class="game-cell2" id="box-14"></div>
+      <div class="game-cell2" id="box-15"></div>
+      <div class="game-cell2" id="box-16"></div>
+      <div class="game-cell2" id="box-17"></div>
+      <div class="game-cell2" id="box-18"></div>
+      <div class="game-cell2" id="box-19"></div>
+      <div class="game-cell2" id="box-20"></div>
+      <div class="game-cell2" id="box-21"></div>
+      <div class="game-cell2" id="box-22"></div>
+      <div class="game-cell2" id="box-23"></div>
+      <div class="game-cell2" id="box-24"></div>
+      <div class="game-cell2" id="box-25"></div>
+    </div>
+    <div class="game-grid-three" id='game-grid-three'>
+      <div class="game-cell3" id="box-26"></div>
+      <div class="game-cell3" id="box-27"></div>
+      <div class="game-cell3" id="box-28"></div>
+      <div class="game-cell3" id="box-29"></div>
+      <div class="game-cell3" id="box-30"></div>
+      <div class="game-cell3" id="box-31"></div>
+      <div class="game-cell3" id="box-32"></div>
+      <div class="game-cell3" id="box-33"></div>
+      <div class="game-cell3" id="box-34"></div>
+      <div class="game-cell3" id="box-35"></div>
+      <div class="game-cell3" id="box-36"></div>
+      <div class="game-cell3" id="box-37"></div>
+      <div class="game-cell3" id="box-38"></div>
+      <div class="game-cell3" id="box-39"></div>
+      <div class="game-cell3" id="box-40"></div>
+      <div class="game-cell3" id="box-41"></div>
+      <div class="game-cell3" id="box-42"></div>
+      <div class="game-cell3" id="box-43"></div>
+      <div class="game-cell3" id="box-44"></div>
+      <div class="game-cell3" id="box-45"></div>
+      <div class="game-cell3" id="box-46"></div>
+      <div class="game-cell3" id="box-47"></div>
+      <div class="game-cell3" id="box-48"></div>
+      <div class="game-cell3" id="box-49"></div>
+      <div class="game-cell3" id="box-50"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="app2.js"></script>
+  <script src="app3.js"></script>
+  <script src="change-background-color.js"></script>
+</body>
+</html>
